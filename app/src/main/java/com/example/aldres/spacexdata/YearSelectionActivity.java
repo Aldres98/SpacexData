@@ -28,7 +28,6 @@ public class YearSelectionActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(YearSelectionActivity.this, MainActivity.class);
                 yearSelected = yearPicker.getValue();
-                System.out.println(yearSelected);
                 intent.putExtra("yearSelected", yearSelected);
                 startActivity(intent);
             }

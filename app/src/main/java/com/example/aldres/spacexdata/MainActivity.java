@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected void onPreExecute() {
                 progressBar.setVisibility(View.VISIBLE);
-                Log.e("Progress bar", "Dissapeared");
             }
 
 
