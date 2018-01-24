@@ -1,6 +1,5 @@
 package com.example.aldres.spacexdata;
 
-import java.time.LocalDate;
 
 /**
  * Created by Aldres on 19.01.2018.
